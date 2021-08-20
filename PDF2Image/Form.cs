@@ -95,6 +95,7 @@ namespace PDF2Image
 			var doc = await PdfDocument.LoadFromFileAsync(file);
 
 			progressBar.Maximum = (int)doc.PageCount;
+			progressBar.Value = 0;
 
 			for (int i = 0; i < doc.PageCount; i++)
 			{

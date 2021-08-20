@@ -2,6 +2,8 @@
 This is a very simple .NET Framework application, using existing Windows libraries, that
 reads a given PDF file and exports each page as an individual JPG image.
 
+![screenshot](Screenshot.png)
+
 Given a PDF file `C:\Docs\foo.pdf` with three pages
 
 Then the following files are generated:
